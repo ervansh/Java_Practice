@@ -1,0 +1,22 @@
+1. What is the difference between string builder and string buffer?
+2. wap-->> input String s= "aabbbccccff"; o/p: a=2, b=3, c=4, f=2
+
+3. wap : to print child method using Abstraction
+
+Parent clas--
+public class Parent {
+	void show() {
+		System.out.println("Parent show");
+
+	}
+}
+
+child clas--
+public class Child {
+	void show() {
+		System.out.println("Child show");
+	}
+}
+
+
+4. 
