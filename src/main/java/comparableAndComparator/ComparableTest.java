@@ -27,5 +27,4 @@ public class ComparableTest {
 
 		students.forEach(System.out::println);
 	}
-
 }

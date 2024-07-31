@@ -1,4 +1,4 @@
-package sorting;
+package searching_sorting;
 
 import java.util.ArrayList;
 import java.util.Iterator;

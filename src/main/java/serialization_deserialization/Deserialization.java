@@ -8,7 +8,7 @@ import java.io.ObjectInputStream;
 public class Deserialization {
 
 	public static void main(String[] args) throws IOException, ClassNotFoundException {
-		String filename = "./src/main/java/serialization_deserialization/ser.txt";
+		String filename = "./src/main/java/serialization_deserialization/students.txt";
 		FileInputStream fis = new FileInputStream(new File(filename));
 		ObjectInputStream ois = new ObjectInputStream(fis);
 
