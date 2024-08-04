@@ -1,9 +1,7 @@
-package stream_api;
+package java_Streams;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
 
 public class StreamTest_Lambda {
 
@@ -50,8 +48,6 @@ public class StreamTest_Lambda {
 
 		// let's remove braces in i as it only accepts only one parameter
 		values.forEach(i -> System.out.println(i));
-		
-		
 
 	}
 
