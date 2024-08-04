@@ -1,4 +1,4 @@
-package setProgramePractice;
+package setProgramPractice;
 
 import java.util.LinkedList;
 import java.util.Queue;
