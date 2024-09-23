@@ -9,9 +9,20 @@ pipeline {
     }
 
     stage('Test UI') {
-      steps {
-        echo 'Testing'
-        bat(script: 'mvn test', encoding: 'utf-8')
+      parallel {
+        stage('Test UI') {
+          steps {
+            echo 'Testing'
+            bat(script: 'mvn test', encoding: 'utf-8')
+          }
+        }
+
+        stage('Test API') {
+          steps {
+            echo 'API testing'
+          }
+        }
+
       }
     }
 
