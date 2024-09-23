@@ -8,9 +8,10 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('Test UI') {
       steps {
         echo 'Testing'
+        bat(script: 'mvn test', encoding: 'utf-8')
       }
     }
 
