@@ -1,4 +1,4 @@
-package strings;
+package stringManipulations;
 
 public class ReverseString {
 

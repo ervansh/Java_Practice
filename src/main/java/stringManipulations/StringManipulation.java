@@ -1,4 +1,6 @@
-package strings;
+package stringManipulations;
+
+import java.util.LinkedList;
 
 public class StringManipulation {
 
@@ -7,6 +9,7 @@ public class StringManipulation {
 
 		String lastname = new String("Singh"); // memory allocation in heap
 
+		lastname = "DJ";
 		System.out.println("First name :" + firstname);
 		System.out.println("Last name :" + lastname);
 
@@ -36,6 +39,20 @@ public class StringManipulation {
 		// is needed without the performance overhead of constructing lots of strings
 		// along the way.
 
+		String str = "abc";
+		String str1 = new String();
+		str1="xyz";
+
+		str1 = str1+str;
+		String str2=str1+str1;
+		System.out.println(str2);
+
+
+		System.out.println(str);
+		
+		LinkedList<String> ll = new LinkedList<String>();
+		ll.add(str2);
+		ll.forEach(e -> System.out.println(e));
 	}
 
 }
