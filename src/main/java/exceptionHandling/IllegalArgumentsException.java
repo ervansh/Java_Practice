@@ -1,4 +1,4 @@
-package customexceptions;
+package exceptionHandling;
 
 public class IllegalArgumentsException extends RuntimeException{
 
