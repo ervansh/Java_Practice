@@ -2,6 +2,7 @@ package serialization_deserialization;
 
 import java.io.Serializable;
 
+@SuppressWarnings("serial")
 public class Students implements Serializable{
 
 	int id;

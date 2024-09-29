@@ -1,4 +1,4 @@
-package stringManipulations;
+package strings;
 
 public class RemoveJunkCharactersFromString {
 
