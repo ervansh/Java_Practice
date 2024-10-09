@@ -10,12 +10,13 @@ public class SerializationTest {
 	public static void main(String[] args) throws IOException {
 		Students std = new Students(001, "John");
 
-		String filename = "./src/main/java/serialization_deserialization/students.txt";
+		String filename = "src/main/java/serialization_deserialization/students.txt";
 		FileOutputStream fos = new FileOutputStream(new File(filename));
 		ObjectOutputStream oos = new ObjectOutputStream(fos);
-		System.out.println("Serialization...........................");
+		System.out.println("Serialization...........................start");
 		oos.writeObject(std);
 		oos.close();
 		fos.close();
+		System.out.println("Serialization...........................stop");
 	}
 }

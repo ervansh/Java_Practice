@@ -1,4 +1,4 @@
-package singletonClassPractice;
+package singletonDesignPattern;
 
 public class MainMethodClass {
 

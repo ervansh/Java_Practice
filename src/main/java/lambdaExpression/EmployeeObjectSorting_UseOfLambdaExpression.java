@@ -3,7 +3,7 @@ package lambdaExpression;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class CustomObjectSorting_UseOfLambdaExpression {
+public class EmployeeObjectSorting_UseOfLambdaExpression {
 	public static void main(String[] args) {
 		ArrayList<Employee> al = new ArrayList<>();
 		al.add(new Employee("Vansh", 30));

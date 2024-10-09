@@ -15,7 +15,7 @@ public class JavaRegex_examples_part1 {
 		boolean b2 = Pattern.compile(".s").matcher("as").matches();
 
 		// 3rd way
-		boolean b3 = Pattern.matches(".s", "as");
+		boolean b3 = Pattern.matches("...s", "atas");
 
 		System.out.println(b + " " + b2 + " " + b3);
 	}

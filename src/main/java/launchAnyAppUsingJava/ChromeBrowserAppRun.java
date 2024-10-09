@@ -8,7 +8,7 @@ public class ChromeBrowserAppRun {
 
 		Runtime runtime = Runtime.getRuntime();
 
-		String[] string = new String[] { "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+		String[] string = new String[] { "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
 				"https://www.google.com/" };
 		runtime.exec(string);
 

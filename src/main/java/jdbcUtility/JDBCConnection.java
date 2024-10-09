@@ -11,6 +11,7 @@ public class JDBCConnection {
 	static Statement statement;
 	static ResultSet response;
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver").newInstance();
