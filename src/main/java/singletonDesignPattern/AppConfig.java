@@ -1,18 +1,22 @@
 package singletonDesignPattern;
 
 public class AppConfig {
-	private static AppConfig obj=null;
-	
-	String name;  //we will access this variable with name itself
-	int age;		//we will access this variable with getter and setter
+	private static AppConfig obj = null;
+
+	String name; // we will access this variable with name itself
+	int age; // we will access this variable with getter and setter
 
 	private AppConfig() {
-		
+
 	}
-	
+
 	public static AppConfig getInstance() {
-		if(obj==null) {
-			obj=new AppConfig();
+		if (obj == null) {
+			synchronized (AppConfig.class) {
+				if (obj == null) {
+					obj = new AppConfig();
+				}
+			}
 		}
 		return obj;
 	}
@@ -24,6 +28,5 @@ public class AppConfig {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
-	
+
 }
