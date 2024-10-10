@@ -1,4 +1,4 @@
-package builderdesignpattern;
+package designpattern.builderpattern;
 
 public class Bicycle {
 

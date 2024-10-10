@@ -1,4 +1,4 @@
-package singletonDesignPattern;
+package designpattern.singletonpattern;
 
 public class AppConfig {
 	private static AppConfig obj = null;

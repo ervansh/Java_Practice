@@ -1,4 +1,4 @@
-package factorydesignpattern;
+package designpattern.factorypattern;
 
 public class CarFactory {
 
