@@ -3,7 +3,7 @@ package oops.abstractionPart2;
 public class ImplementationClass {
 
 	public static void main(String[] args) {
-		WagonR wagonr = new WagonR();
+		Car wagonr = new WagonR();
 		wagonr.breaks();
 		wagonr.accelerator();
 

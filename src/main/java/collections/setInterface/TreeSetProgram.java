@@ -1,10 +1,9 @@
 package collections.setInterface;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Set;
 import java.util.TreeSet;
 
-public class TreeSetPrograme {
+public class TreeSetProgram {
 
 	public static void main(String[] args) {
 		System.out.println("<<<<<<<<<<<<<<<<<<<Tree set>>>>>>>>>>>>>>>>>>");
@@ -14,15 +13,13 @@ public class TreeSetPrograme {
 		ts.add("rahul");
 		ts.add("rahul");
 		System.out.println(ts);
-		
-		System.out.println("<<<<<<<<<<<<<<<<<<<Queue>>>>>>>>>>>>>>>>>>");
-		Queue<String> q = new LinkedList<String>();
-		q.add("rahul");
-		q.add("vansh");
-		q.add("rahul");
-		q.add("rahul");
-		System.out.println(q);
-		
+
+		Set<String> set = new TreeSet<>();
+		set.add("Cherry");
+		set.add("Banana");
+		set.add("Apple");
+		System.out.println(set); // Output will be: [Apple, Banana, Cherry]
+
 	}
 
 }

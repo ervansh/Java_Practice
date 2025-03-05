@@ -30,6 +30,55 @@ public class ReverseString {
 			reverse = reverse + input.charAt(i);
 		}
 		System.out.println(reverse + " way-4");
+		
+		//reverse the given string 
+		String sentence = "My name is Vansh";
+		//using string builder
+		sb.delete(0, sb.length());
+		sb.append(sentence);
+		System.out.println("<<<<<<<<<<<<<Reverse sentence>>>>>>>>>>");
+		System.out.println(sb);
+		sb.reverse();
+		System.out.println(sb);
+		
+		//reverse the given string but order should not change
+		StringBuilder reversedsentence = new StringBuilder();
+		
+		String[] sents = sentence.split(" ");
+		for(String sent : sents) {
+			StringBuilder sbs = new StringBuilder();
+			sbs.append(sent);
+			sbs.reverse();
+			reversedsentence.append(sbs.append(" "));
+		}
+		
+		System.out.println("Reverse is: "+reversedsentence);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 
 	}
 }
